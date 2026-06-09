@@ -1,12 +1,22 @@
-# Ponte de comandos - Apontamento Orba (voz via Claude iOS)
+# Ponte de comandos - Apontamento Orba (gatilho de voz pelo Claude iOS)
 
-Para disparar a partir do Claude, edite `comandos/comando.json` com:
+## Gatilhos (frases que o operador fala)
+- "apontamento pa"            -> RODAR o fluxo completo e devolver o resultado.
+- "apontamento pa, programado 48.000" -> rodar usando esse programado (formato BR, ponto de milhar).
+- "status apontamento"        -> NAO roda; devolve o ultimo resultado em cache (instantaneo).
 
-{ "acao": "rodar", "programado": "48.000", "id": "2026-06-09-1130" }
+## Como o Claude executa o gatilho
+1. Editar `comandos/comando.json` neste repo com:
+   { "acao": "rodar", "programado": "<opcional>", "id": "<AAAA-MM-DD-HHMMSS unico>" }
+   - acao "rodar" para "apontamento pa"; acao "status" para "status apontamento".
+   - programado: incluir SO se o operador disser um numero; senao omitir (reusa o ultimo salvo).
+   - id: SEMPRE unico (data-hora). O PC so executa quando o id muda.
+2. Avisar o operador: "rodando, leva ~3 min" (para "rodar"); status e quase instantaneo.
+3. Depois de ~3 min (ou ~30s no status), ler `comandos/resultado.json`.
+   - Conferir que `resultado.id` == o `id` que foi enviado (garante que e a resposta certa).
+   - Devolver o campo `texto` ao operador.
 
-- acao: "rodar" (fluxo completo) ou "status" (so o ultimo resultado).
-- programado: opcional, formato BR com ponto de milhar (ex "48.000"). Se omitir, reusa o ultimo salvo.
-- id: OBRIGATORIO e UNICO por comando (use data-hora). So executa quando o id muda.
+## Resposta (resultado.json)
+{ "id":..., "acao":..., "estado":"ok|erro|faltou_programado", "texto":"...", "horario":"..." }
 
-O PC le este arquivo a cada 30s, executa, e escreve a resposta em `comandos/resultado.json`.
-Apos mandar "rodar", espere ~3 min e leia `comandos/resultado.json`.
+O PC le `comando.json` a cada 30s. Tudo roda no servidor da producao; nada do PC fica exposto.
