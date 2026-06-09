@@ -1,5 +1,7 @@
 {
-  "estado": "pronto",
-  "horario": "09/06/2026 10:12:29",
-  "texto": "Ponte ativa. Aguardando comando."
+    "horario":  "09/06/2026 10:23:38",
+    "acao":  "rodar",
+    "id":  "2026-06-09-132313",
+    "texto":  "Erro ao processar: O argumento \u0027\\\\SERVER\\Plano de Acao\\Dados\\AutomaÃ§Ã£o\\Acompanhamento Apontamento PA\\RODAR_AUTOMACAO_POWERSHELL.ps1\u0027 para o parâmetro -File não existe. Forneça o caminho para um arquivo \u0027.ps1\u0027 existente como um argumento para o parâmetro -File.",
+    "estado":  "erro"
 }
