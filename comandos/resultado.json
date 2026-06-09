@@ -1,7 +1,7 @@
 {
-    "horario":  "09/06/2026 10:35:43",
+    "horario":  "09/06/2026 10:41:04",
     "acao":  "rodar",
-    "id":  "teste-rodar-20260609-103249",
-    "texto":  "Erro ao processar: warning: in the working copy of \u0027index.html\u0027, LF will be replaced by CRLF the next time Git touches it",
-    "estado":  "erro"
+    "id":  "teste-final-20260609-103819",
+    "texto":  "Apontamento atualizado!\nRealizado hoje: 15.738 un\nDia anterior: 24.084 un\nProgramado: 40.854\nPercentual: 38,5%\nhttps://cleisinhoprocontato-design.github.io/orba-dashboard/",
+    "estado":  "ok"
 }
