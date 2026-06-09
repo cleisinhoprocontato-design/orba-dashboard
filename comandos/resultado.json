@@ -1,7 +1,7 @@
 {
-    "horario":  "09/06/2026 10:26:12",
+    "horario":  "09/06/2026 10:35:43",
     "acao":  "rodar",
-    "id":  "2026-06-09-132546",
-    "texto":  "Erro ao processar: O argumento \u0027\\\\SERVER\\Plano de Acao\\Dados\\AutomaÃ§Ã£o\\Acompanhamento Apontamento PA\\RODAR_AUTOMACAO_POWERSHELL.ps1\u0027 para o parâmetro -File não existe. Forneça o caminho para um arquivo \u0027.ps1\u0027 existente como um argumento para o parâmetro -File.",
+    "id":  "teste-rodar-20260609-103249",
+    "texto":  "Erro ao processar: warning: in the working copy of \u0027index.html\u0027, LF will be replaced by CRLF the next time Git touches it",
     "estado":  "erro"
 }
