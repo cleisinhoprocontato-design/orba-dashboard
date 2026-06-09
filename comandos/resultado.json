@@ -1,7 +1,7 @@
 {
-    "horario":  "09/06/2026 10:08:09",
-    "acao":  "status",
-    "id":  "teste-status-20260609-100742",
-    "texto":  "*Dashboard atualizado!*\n\n*Realizado hoje: 14.436 un*\n*Dia anterior: 24.084 un*\n*Programado: 40.854*\n*Percentual: 35,3%*\n\nhttps://cleisinhoprocontato-design.github.io/orba-dashboard/",
-    "estado":  "ok"
+    "horario":  "09/06/2026 10:10:32",
+    "acao":  "idle",
+    "id":  "idle",
+    "texto":  "Acao desconhecida: \u0027idle\u0027. Use \u0027rodar\u0027 ou \u0027status\u0027.",
+    "estado":  "acao_invalida"
 }
