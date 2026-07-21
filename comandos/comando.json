@@ -1,5 +1,5 @@
 {
-  "acao": "jarvis",
-  "id": "jarvis-web-111138",
-  "texto": "pesquise na web a cotacao do dolar hoje e me diga em uma linha com a fonte"
+  "texto": "pesquise na web a cotacao do dolar hoje e responda em uma linha com a fonte",
+  "id": "jarvis-utf-111334",
+  "acao": "jarvis"
 }
