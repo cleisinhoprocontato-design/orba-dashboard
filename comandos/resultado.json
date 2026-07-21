@@ -1,8 +1,8 @@
 {
-    "id":  "jarvis-web-111138",
+    "id":  "jarvis-utf-111334",
     "estado":  "ok_cerebro",
-    "texto":  "D├│lar hoje (21/07/2026): R$ 5,08 em queda, negociado por volta de R$ 5,0790 no in├¡cio do preg├úo ÔÇö fonte: InfoMoney (infomoney.com.br, 21/07/2026).",
+    "texto":  "Dólar hoje (21/07/2026): R$ 5,09 (-0,53% vs. ontem) — fonte: dolarhoje.com.\r\n\r\nComo isso é só uma consulta pontual e não envolve código/plano de implementação, respondi direto sem acionar o fluxo de planejamento.",
     "acao":  "jarvis",
     "intent":  "cerebro",
-    "horario":  "21/07/2026 11:12:11"
+    "horario":  "21/07/2026 11:14:01"
 }
