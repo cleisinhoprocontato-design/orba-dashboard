@@ -1,8 +1,8 @@
 {
-    "id":  "jarvis-brain-110423",
-    "estado":  "cerebro_deslogado",
-    "texto":  "Meu cerebro esta deslogado. Para ligar a pesquisa online e as ideias, faca login uma vez: abra um terminal, rode \u0027claude\u0027 e depois \u0027/login\u0027.",
+    "id":  "jarvis-web-111138",
+    "estado":  "ok_cerebro",
+    "texto":  "D├│lar hoje (21/07/2026): R$ 5,08 em queda, negociado por volta de R$ 5,0790 no in├¡cio do preg├úo ÔÇö fonte: InfoMoney (infomoney.com.br, 21/07/2026).",
     "acao":  "jarvis",
     "intent":  "cerebro",
-    "horario":  "21/07/2026 11:04:39"
+    "horario":  "21/07/2026 11:12:11"
 }
