@@ -1,8 +1,8 @@
 {
-    "id":  "jarvis-e2e-105853",
-    "estado":  "ok",
-    "texto":  "JARVIS Orba - comandos que eu entendo por voz:\n\n- \"apontamento\" ou \"status\"      -\u003e ultimo resultado da producao (instantaneo)\n- \"rodar apontamento [numero]\"   -\u003e roda a automacao de apontamento\n- \"faltas\" ou \"quem faltou hoje\" -\u003e relatorio consolidado de faltas do dia (email)\n- \"dashboard\" ou \"link\"          -\u003e link do painel de producao\n- \"ajuda\"                        -\u003e esta lista\n\nQualquer outra pergunta cai no meu cerebro (Claude) quando estiver ligado.",
+    "id":  "jarvis-brain-110423",
+    "estado":  "cerebro_deslogado",
+    "texto":  "Meu cerebro esta deslogado. Para ligar a pesquisa online e as ideias, faca login uma vez: abra um terminal, rode \u0027claude\u0027 e depois \u0027/login\u0027.",
     "acao":  "jarvis",
-    "intent":  "ajuda",
-    "horario":  "21/07/2026 10:59:19"
+    "intent":  "cerebro",
+    "horario":  "21/07/2026 11:04:39"
 }
